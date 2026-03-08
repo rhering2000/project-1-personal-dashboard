@@ -1,6 +1,7 @@
 import ClockWidget from '@/components/ClockWidget';
 import TodoWidget from '@/components/TodoWidget';
 import WeatherWidget from '@/components/WeatherWidget';
+import GitHubWidget from '@/components/GitHubWidget';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
         <ClockWidget />
         <WeatherWidget />
+        <GitHubWidget />
         <TodoWidget />
       </div>
     </main>
